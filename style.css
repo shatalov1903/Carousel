@@ -3,6 +3,10 @@ body {
   padding: 20px;
 }
 
+.owl-carousel {
+  padding: 0 15px;
+}
+
 h1 {
   text-align: center;
   color: red;
@@ -14,7 +18,7 @@ img {
   height: 250px;
 }
 
-span {
+.text {
   display: block;
   border-top: 2px solid black;
   padding: 20px 0;
@@ -22,7 +26,6 @@ span {
   color: blue;
 }
 
-/* OWL Carousel */
 .item,
 .swiper-slide {
   padding: 5px;
@@ -30,4 +33,26 @@ span {
   text-align: center;
 }
 
-/* Swiper */
+.owl-stage-outer {
+  position: relative;
+}
+
+.owl-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 60px;
+  color: green;
+}
+
+.owl-prev {
+  position: absolute;
+  top: 125px;
+  left: -15px;
+}
+
+.owl-next {
+  position: absolute;
+  top: 125px;
+  right: -15px;
+}

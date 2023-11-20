@@ -7,7 +7,7 @@ var mySwiper = new Swiper('.swiper-container', {
     },
     breakpoints: {
         768: {
-           slidesPerView: 4,
+           slidesPerView: 3,
            spaceBetween: 5
         },
         576: {

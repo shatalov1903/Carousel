@@ -3,20 +3,20 @@ $(document).ready(function(){
        items: 3,
        loop: true,
        margin: 10,
-       autoplay: false,  //false-убирает автоперелистывание
+       autoplay: true,  //false-убирает автоперелистывание
        autoplayTimeout: 3000,
        responsive:{
           0:{
              items:1,
-             nav:false
+             nav:true
           },
           600:{
-             items:3,
-             nav:false
+             items:2,
+             nav:true
           },
           1000:{
-             items:4,
-             nav:false, //true-включает стрелки навигации
+             items:3,
+             nav:true, //true-включает стрелки навигации
              loop:true  //false-убирает повторение слайдов
           }
        }
